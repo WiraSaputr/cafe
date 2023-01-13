@@ -27,6 +27,8 @@
                 $status = 'Habis'
             }
         }  ?>
+        <td><?=$menu['keterangan'] ?></td>
+        <td> <a href="<?= $base_url . menu/create $menu"></a></td>
         </tr>
     </table>
 </div>
